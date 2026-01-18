@@ -32,6 +32,7 @@ app.use(cookieParser());
 // Configure CORS for development and production
 const allowedOrigins = [
   process.env.FRONTEND_URL || "http://localhost:5173",
+  "https://cilliblog.vercel.app",
   "https://blog-app-xi-sandy-36.vercel.app",
   "https://blogapp-git-main-ritheshs-projects-d70ba336.vercel.app",
   "https://blogapp-ngm3bjyus-ritheshs-projects-d70ba336.vercel.app",
